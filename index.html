@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="description" content="Papachos Food es un restaurante Argentino con sedes en CABA, Mendoza y Santa Fe.">
+    <meta name="keywords" content="Restaurante, Delivery, Papachos, Food, Comida">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=IM+Fell+English+SC&family=Open+Sans:wght@300&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <!--BOOTSTRAP CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <title>Papachos Food | Inicio</title>
+</head>
+
+<body>  
+    <section class="seccionHome" >
+        
+    <header>    
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+            <a class="navbar-brand" href="index.html">Papacho's</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active"><a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                  <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                  <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                  <li class="nav-item"><a class="nav-link" href="delivery.html">Delivery</a></li>
+                  <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="contacto.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Contacto</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="contacto.html#caba">Caba</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="contacto.html#mendoza">Mendoza</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="contacto.html#santaFe">Santa Fe</a>
+                    </div></li> 
+                </ul>
+              </div>
+            </nav>
+    </header>
+   
+    <main>
+        <div class="bannerHome">
+            <h1 class="bannerHome__titulo">BIENVENIDOS A PAPACHOS FOOD</h1>
+            <h3 class="bannerHome__texto">La mejor carne Argentina</h3>
+        </div>
+
+        <div class="bannerMenues">
+
+            <div class="resumen1">
+                <h3 class="resumen1__titulo">Menu 1</h3>
+                <p class="resumen1__texto">Cole Slaw</p>
+                <p class="resumen1__texto">Costillar de cerdo</p>
+                <p class="resumen1__texto">Brownie</p>
+            </div>
+
+            <div class="resumen2">
+                <h3 class="resumen2__titulo">Menu 2</h3>
+                <p class="resumen2__texto">Caesar</p>
+                <p class="resumen2__texto"> Salmón ahumado</p>
+                <p class="resumen2__texto">Cheesecake</p>
+            </div>
+
+            <div class="resumen3">
+                <h3 class="resumen3__titulo">Menu 3</h3>
+                <p class="resumen3__texto">Milanesa Mozzarella</p>
+                <p class="resumen3__texto">Pasta Penne Rigatti</p>
+                <p class="resumen3__texto">Mouse de chocolate</p>
+            </div>
+        </div>
+     
+    <div class="homeSubscripcion">
+        <h2 class="homeSubscripcion__titulo">SUSCRIBIRSE</h2>
+        <table class="homeSubscripcion__tabla2">
+                <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded"> 
+            <tr>
+                <td>           
+                    <label for="nombre"> Nombre y Apellido </label>
+                    <td><input name="nombre" type="text" required><br>
+                </td>
+            </tr>
+            <tr>
+                <td> <label for="sexo">Sexo </label>  </td>
+                <td>
+                <select name="sexo">
+                <option value="L">Masculino</option>
+                <option value="M">Femenino</option>
+                <option value="S">Otro</option>
+                </select> 
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" name="email" placeholder="nombre@ejemplo.com" required/> </td>
+            </tr>     
+            <tr>
+                <td><label for="tel">Telefono </label> </td>
+                <td>  <input type="text" name="tel" required> </td>
+                
+            </tr>  
+            <tr>
+                <td><label for="check">Deseo recibir novedades sobre los productos </label></td>
+                <td> <input type="checkbox" name="check" value="si" /> </td>
+            </tr>      
+            <tr>
+                <!--<td><input type="submit" value="Enviar"/></td>-->
+                <td><button type="button" class="btn btn-danger" value="Enviar" data-toggle="modal" data-target="#myModal">
+                    Enviar
+                  </button></td>
+                <td><input type="reset" value="Limpiar Formulario"/></td>
+            </tr>    
+            </form>                
+        </table>
+        <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Subscripcion Papachos</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          Ha sido subscipto a las novedades y promociones de Papacho's Food!
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+    </div> 
+    </section>
+    </main>
+
+    <footer>
+        <br>
+        <table>
+            <tr>
+                <td><a href="https://twitter.com/" target="_blank"> <img src="img/twitter.png"></a></td>
+                <td><a href="https://instagram.com/" target="_blank"><img src="img/insta.png"></a></td>
+                <td><a href="https://twitter.com/" target="_blank"><img src="img/face.png"></a></td>
+            </tr>
+        </table>
+                <p>CoderHouse - Comision 22940 - 2021</p>
+    </footer>
+</body>
+</html> 
