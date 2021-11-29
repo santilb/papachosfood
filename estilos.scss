@@ -11,6 +11,7 @@ body{
     animation: aparece ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    min-width: 300px;
 }
 
 @keyframes aparece {
@@ -56,7 +57,7 @@ footer{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 35rem;
+    height: 25rem;
     padding-top: 5%;
     padding-bottom: 5%;
     font-family: 'Source Sans Pro', sans-serif;
@@ -82,6 +83,7 @@ footer{
     
     .bannerHome {
         font-size: large;
+        height: 35rem;
     }
 
     .bannerMenues {

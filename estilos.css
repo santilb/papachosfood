@@ -11,6 +11,7 @@ body {
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
+  min-width: 300px;
 }
 
 @-webkit-keyframes aparece {
@@ -70,7 +71,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 35rem;
+  height: 25rem;
   padding-top: 5%;
   padding-bottom: 5%;
   font-family: 'Source Sans Pro', sans-serif;
@@ -97,6 +98,7 @@ footer {
 @media only screen and (min-width: 500px) {
   .bannerHome {
     font-size: large;
+    height: 35rem;
   }
   .bannerMenues {
     -webkit-box-align: start !important;
