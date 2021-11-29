@@ -112,6 +112,7 @@ footer {
   .bannerHome {
     font-size: large;
     height: 35rem;
+
     h1 {
       font-size: xx-large;
     }
@@ -136,6 +137,10 @@ footer {
     width: $defaultWidth/4;
     height: 11rem !important;
   }
+
+  .menuLinea {
+    width: $defaultWidth/1.4!important;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -147,7 +152,7 @@ footer {
 
   .menuLinea {
     height: 3rem;
-    width: $defaultWidth/1.5;
+    width: $defaultWidth/1.4!important;
   }
 }
 
@@ -284,6 +289,7 @@ table {
   justify-items: left;
   text-align: center;
 }
+
 
 #caba {
   background-color: #686154;
