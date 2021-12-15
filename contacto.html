@@ -47,64 +47,50 @@
             </nav>
     </header>
     <main>
-    <div class="contactoInfo">
+    <div class="container contactoInfo">
         <h1 class="contactoInfo__titulo">Contacto</h1>
-        <div id="caba" class="contactoCABA">
-            <h3 class="contactoCABA__titulo">CABA</h3>
-            <table class="contactoCABA__tabla">
-                <tr>
-                    <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52561.83774944248!2d-58.442420323586596!3d-34.57596015406174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d512400a5f%3A0x6f9fba33401733a3!2sEspacio%20gastron%C3%B3mico!5e0!3m2!1ses-419!2sar!4v1633446711783!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></td>
-                    <td>
-                        <h3>Papachos's Food - CABA</h3>
-                        <ul>
-                           <li>Gurruchaga 1400, CABA</li>
-                           <li>Horario de atencion: 12 a 23hs</li>
-                           <li>Telefono : +54 9 11 666 6666</li>
-                           <li>Email : info@papachosfood.com</li>
-                       </ul>
-                    </td>
-                </tr>
-            </table> 
-        </div>
-        <div id="mendoza" class="contactoMendoza">
-            <h3 class="contactoMendoza__titulo">Mendoza</h3>
-            <table class="contactoMendoza__tabla"> 
-                <tr>
-                    <td>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.411665358605!2d-68.84637458427827!3d-32.88728247621673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e091c8251aa8f%3A0xc9a89481f619336a!2sGuti%C3%A9rrez%20417%2C%20M5502%20BZQ%2C%20Mendoza!5e0!3m2!1ses-419!2sar!4v1635737605820!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
-                    </td>
-                    <td>
-                        <h3>Papachos's Food - Mendoza</h3>
-                        <ul>
-                           <li>Gutierrez 417, Mendoza</li>
-                           <li>Horario de atencion: 12 a 23hs</li>
-                           <li>Telefono : +54 9 0261 666 6666</li>
-                           <li>Email : info@papachosfood.com</li>
-                       </ul>
-                    </td>
-                </tr>
-            </table> 
-        </div>
-        <div id="santaFe" class="contactoStaFE">
-            <h3 class="contactoStaFE__titulo">Santa Fe</h3>
-            <table class="contactoStaFE__tabla">
-                <tr>
-                    <td>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.8979566685334!2d-60.698889984307584!3d-31.636644214106994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a995be303f59%3A0xf2f586d6a1be6c95!2sBlvd.%20G%C3%A1lvez%2C%20S3000%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1635738266810!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
-                    </td>
-                    <td>
-                        <h3>Papachos's Food - SANTA FE</h3>
-                        <ul>
-                           <li>Blvd. Galvez S3000, Santa Fe</li>
-                           <li>Horario de atencion: 12 a 23hs</li>
-                           <li>Telefono : +54 9 0342 666 6666</li>
-                           <li>Email : info@papachosfood.com</li>
-                       </ul>
-                    </td>
-                </tr>
-            </table> 
-        </div>
         
+        <div class="row featurette" id="caba">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">CABA</h2>
+              <hr class="featurette-divider">
+              <p class="lead">Gurruchaga 1400, CABA</p>
+              <p class="lead">Horario de atencion: 12 a 23hs</p>
+              <p class="lead">Telefono : +54 9 11 666 6666</p>
+              <p class="lead">Email : info@papachosfood.com</p>
+            </div>
+            <div class="col-md-5">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52561.83774944248!2d-58.442420323586596!3d-34.57596015406174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d512400a5f%3A0x6f9fba33401733a3!2sEspacio%20gastron%C3%B3mico!5e0!3m2!1ses-419!2sar!4v1633446711783!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>  
+        
+        <div class="row featurette" id="mendoza">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Mendoza</h2>
+              <hr class="featurette-divider">
+              <p class="lead">Gutierrez 417, Mendoza</p>
+              <p class="lead">Horario de atencion: 12 a 23hs</p>
+              <p class="lead">Telefono : +54 9 0261 666 6666</p>
+              <p class="lead">Email : info@papachosfood.com</p>
+            </div>
+            <div class="col-md-5">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.411665358605!2d-68.84637458427827!3d-32.88728247621673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e091c8251aa8f%3A0xc9a89481f619336a!2sGuti%C3%A9rrez%20417%2C%20M5502%20BZQ%2C%20Mendoza!5e0!3m2!1ses-419!2sar!4v1635737605820!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+            </div>
+        </div>     
+
+        <div class="row featurette" id="santaFe">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Santa Fe</h2>
+              <hr class="featurette-divider">
+              <p class="lead">Blvd. Galvez S3000, Santa Fe</p>
+              <p class="lead">Horario de atencion: 12 a 23hs</p>
+              <p class="lead">Telefono : +54 9 0342 666 6666</p>
+              <p class="lead">Email : info@papachosfood.com</p>
+            </div>
+            <div class="col-md-5">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.8979566685334!2d-60.698889984307584!3d-31.636644214106994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a995be303f59%3A0xf2f586d6a1be6c95!2sBlvd.%20G%C3%A1lvez%2C%20S3000%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1635738266810!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+            </div>
+        </div>        
     </div>
     </main>
 

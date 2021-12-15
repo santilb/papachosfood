@@ -328,47 +328,28 @@ table {
   background-color: transparent !important;
 }
 
-.contacto h3 {
+.contacto h2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-.contactoInfo {
-  margin: 0;
-  width: 100%;
-  padding-bottom: 5rem;
-  font-family: "Open Sans", sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: auto;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  justify-items: left;
-  text-align: center;
-}
-
 #caba {
   background-color: #686154;
-  padding-bottom: 2rem;
 }
 
 #mendoza {
   background-color: #4b453c;
+  padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
 #santaFe {
   background-color: #686154;
-  padding-bottom: 2rem;
 }
 
 /* CSS del segmento Delivery */
 .delivery {
+  text-align: center;
   padding-bottom: 3rem;
   color: #c9dcb3;
   background-color: #4b453c;
@@ -378,9 +359,12 @@ table {
   background-color: transparent !important;
 }
 
-.carousel-caption h3,
-.carousel-caption .carousel-caption p {
-  color: black !important;
+.delivery h1 {
+  padding-top: 3rem;
+}
+
+.delivery p {
+  padding-bottom: 1.5rem;
 }
 
 /* CSS del segmento Carta */
