@@ -55,6 +55,7 @@ footer {
   color: beige;
   text-align: center;
   width: $defaultWidth;
+  height: 7rem;
 }
 
 .seccionHome {
@@ -229,21 +230,25 @@ table {
 }
 
 .homeSubscripcion__tabla2 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  width: $defaultWidth/3;
   margin: 0 auto;
   text-align: center;
-  border-color: #3d3a33;
+  /*border-color: #3d3a33;*/
+  background-color: $colorFondo2;
   border-radius: 25px;
   border-spacing: auto;
-
-  td {
-    background-color: #3d3a33;
-    /*border: 2px solid transparent;*/
-    text-align: center;
+  min-width: 200px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.30);
+  td{
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
+
+.final {
+ padding-bottom: 2rem;   
+}
+
+
 
 .homeSubscripcion {
   font-family: $font1;
@@ -331,9 +336,13 @@ table {
   color: $colorLetra1;
   background-color: $colorFondo;
   text-align: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("img/back.jpg");
 
   nav {
-    background-color: transparent !important;
+    background-color: $colorFondo2!important;
   }
 
   h1 {
@@ -342,6 +351,7 @@ table {
 }
 
 .cartaInfo {
+  background-color: $colorFondo2!important;
   width: $defaultWidth;
   padding-bottom: 5rem;
   font-family: $font1;
@@ -375,6 +385,7 @@ table {
   background-color: #a39884;
   height: auto;
   box-shadow: 2px 2px 2px #645d51;
+  border-radius: 10px;
 
   h3 {
     font-size: larger;
@@ -388,8 +399,8 @@ table {
 
 .menuLinea:hover {
   text-shadow: 2px 2px 2px #303030;
-  border-radius: 10px;
-  box-shadow: 0 0 15px 10px #4b453c;
+  
+  box-shadow: 0 0 15px 10px #1614126b;
 }
 
 /* CSS del segmento Nosotros */
@@ -397,6 +408,7 @@ table {
 .nosotros {
   color: $colorLetra1;
   background-color: $colorFondo;
+
 
   nav {
     background-color: transparent !important;
@@ -406,13 +418,12 @@ table {
     font-size: xx-large;
     font-family: $font2;
     padding-bottom: 2%;
-    text-shadow: 2px 2px 2px #201f1b;
+    /*text-shadow: 2px 2px 2px #201f1b;*/
   }
 }
 
 .nosotrosInfo {
   font-family: $font1;
-  text-shadow: 2px 2px 2px #201f1b;
   font-size: larger;
   width: 100%;
   padding-left: 15%;
@@ -422,64 +433,7 @@ table {
   padding-bottom: 2rem;
 }
 
-.nostrosGaleria {
-  display: grid;
-  padding-left: 15%;
-  padding-right: 15%;
-  grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: repeat(7, 5vw);
-  grid-gap: 1%;
-
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  img:hover {
-    transform: scale(1.05, 1.05);
-    opacity: 0.75;
-  }
-}
-
-.nostrosGaleria__imagenA {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 5;
-}
-
-.nostrosGaleria__imagenB {
-  grid-column-start: 3;
-  grid-column-end: 6;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.nostrosGaleria__imagenC {
-  grid-column-start: 6;
-  grid-column-end: 9;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.nostrosGaleria__imagenD {
-  grid-column-start: 7;
-  grid-column-end: 9;
-  grid-row-start: 3;
-  grid-row-end: 7;
-}
-
-.nostrosGaleria__imagenE {
-  grid-column-start: 3;
-  grid-column-end: 7;
-  grid-row-start: 3;
-  grid-row-end: 7;
-}
-
-.nostrosGaleria__imagenF {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 5;
-  grid-row-end: 7;
+img:hover {
+  transform: scale(1.05, 1.05);
+  opacity: 0.75;
 }

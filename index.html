@@ -81,11 +81,15 @@
             <tr>
                 <td>           
                     <label for="nombre"> Nombre y Apellido </label>
-                    <td><input name="nombre" type="text" required><br>
-                </td>
+                </td>    
+            </tr>
+            <tr>
+                <td><input name="nombre" type="text" required><br> </td>
             </tr>
             <tr>
                 <td> <label for="sexo">Sexo </label>  </td>
+            </tr>
+            <tr>
                 <td>
                 <select name="sexo">
                 <option value="L">Masculino</option>
@@ -96,23 +100,30 @@
             </tr>
             <tr>
                 <td><label for="email">Email</label></td>
+            </tr>
+            <tr>
                 <td><input type="email" name="email" placeholder="nombre@ejemplo.com" required/> </td>
-            </tr>     
+            </tr>
             <tr>
                 <td><label for="tel">Telefono </label> </td>
+            </tr>     
+            <tr>
                 <td>  <input type="text" name="tel" required> </td>
-                
             </tr>  
             <tr>
-                <td><label for="check">Deseo recibir novedades sobre los productos </label></td>
-                <td> <input type="checkbox" name="check" value="si" /> </td>
-            </tr>      
+
+            </tr>
+            <tr>
+                <td><label for="check"> Deseo recibir novedades sobre los productos </label> <input type="checkbox" name="check" value="si" ></td>
+            </tr>   
+            <tr>
+
+            </tr>   
             <tr>
                 <!--<td><input type="submit" value="Enviar"/></td>-->
-                <td><button type="button" class="btn btn-danger" value="Enviar" data-toggle="modal" data-target="#myModal">
+                <td class="final"><button type="button" class="btn btn-danger" value="Enviar" data-toggle="modal" data-target="#myModal">
                     Enviar
-                </button></td>
-                <td><input type="reset" value="Limpiar Formulario"/></td>
+                </button> <input type="reset" class="btn btn-light" value="Limpiar Form"/></td>
             </tr>    
             </form>                
         </table>
