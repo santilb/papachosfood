@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 $colorLetra1: #c9dcb3;
-$colorFondo: #7b7263;
+$colorFondo: #4b453c;
 $colorFondo2: rgba(0, 0, 0, 0.5);
 $colorFondo3: transparent;
 $font1: "Open Sans", sans-serif;
@@ -382,9 +382,9 @@ table {
   margin-bottom: 1%;
   border: transparent solid 5px;
   width: auto;
-  background-color: #a39884;
-  height: auto;
-  box-shadow: 2px 2px 2px #645d51;
+  background-color: #645d5180;
+  height: 3rem;
+  box-shadow: 2px 2px 2px #645d516b;
   border-radius: 10px;
 
   h3 {
@@ -420,6 +420,10 @@ table {
     padding-bottom: 2%;
     /*text-shadow: 2px 2px 2px #201f1b;*/
   }
+}
+
+hr {
+  background-color: $colorLetra1;
 }
 
 .nosotrosInfo {

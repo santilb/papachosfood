@@ -321,7 +321,7 @@ table {
 .contacto {
   text-align: center;
   color: #c9dcb3;
-  background-color: #7b7263;
+  background-color: #4b453c;
 }
 
 .contacto nav {
@@ -358,7 +358,7 @@ table {
 }
 
 #mendoza {
-  background-color: #7b7263;
+  background-color: #4b453c;
   padding-bottom: 2rem;
 }
 
@@ -371,7 +371,7 @@ table {
 .delivery {
   padding-bottom: 3rem;
   color: #c9dcb3;
-  background-color: #7b7263;
+  background-color: #4b453c;
 }
 
 .delivery nav {
@@ -386,7 +386,7 @@ table {
 /* CSS del segmento Carta */
 .carta {
   color: #c9dcb3;
-  background-color: #7b7263;
+  background-color: #4b453c;
   text-align: center;
   background-attachment: fixed;
   background-size: cover;
@@ -445,10 +445,10 @@ table {
   margin-bottom: 1%;
   border: transparent solid 5px;
   width: auto;
-  background-color: #a39884;
-  height: auto;
-  -webkit-box-shadow: 2px 2px 2px #645d51;
-          box-shadow: 2px 2px 2px #645d51;
+  background-color: #645d5180;
+  height: 3rem;
+  -webkit-box-shadow: 2px 2px 2px #645d516b;
+          box-shadow: 2px 2px 2px #645d516b;
   border-radius: 10px;
 }
 
@@ -470,7 +470,7 @@ table {
 /* CSS del segmento Nosotros */
 .nosotros {
   color: #c9dcb3;
-  background-color: #7b7263;
+  background-color: #4b453c;
 }
 
 .nosotros nav {
@@ -483,6 +483,10 @@ table {
   font-family: "Roboto", sans-serif;
   padding-bottom: 2%;
   /*text-shadow: 2px 2px 2px #201f1b;*/
+}
+
+hr {
+  background-color: #c9dcb3;
 }
 
 .nosotrosInfo {
